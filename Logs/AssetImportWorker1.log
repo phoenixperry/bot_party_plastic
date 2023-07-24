@@ -1,0 +1,425 @@
+Unity Editor version:    2021.3.1f1 (3b70a0754835)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.6.5 (Build 21G531)
+Darwin version:          21.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+/Users/phoenixperry/wkspaces/bot_party_unity_game
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+51682
+Successfully changed project path to: /Users/phoenixperry/wkspaces/bot_party_unity_game
+/Users/phoenixperry/wkspaces/bot_party_unity_game
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 78.68 ms, found 3 plugins.
+Plugins: Couldn't open Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/../Frameworks/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (no such file), '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MacOS/../Frameworks/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (no such file), 'Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e))), '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.52 ms.
+Initialize engine version: 2021.3.1f1 (3b70a0754835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56380
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001122 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.48 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.22 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.464 seconds
+Domain Reload Profiling:
+	ReloadAssembly (464ms)
+		BeginReloadAssembly (69ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (317ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (76ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (189ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004435 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.26 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  0.717 seconds
+Domain Reload Profiling:
+	ReloadAssembly (718ms)
+		BeginReloadAssembly (59ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (593ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (164ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (294ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (57ms)
+				ProcessInitializeOnLoadAttributes (147ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.1f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.21 ms.
+Unloading 3842 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (44.6 KB). Loaded Objects now: 4264.
+Memory consumption went from 232.8 MB to 232.7 MB.
+Total: 4.853458 ms (FindLiveObjects: 0.150250 ms CreateObjectMapping: 0.051375 ms MarkObjects: 4.582625 ms  DeleteObjects: 0.067916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 12180.414000 seconds.
+  path: Assets/testMixer.mixer
+  artifactKey: Guid(9b72e2c1f76794bee90fe860d8e582e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/testMixer.mixer using Guid(9b72e2c1f76794bee90fe860d8e582e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1ea3ad33d3f13413bf28f11c51bdb5') in 0.066899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/New Flare.flare
+  artifactKey: Guid(71fd8a0bf09c48540a732d9424782ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Flare.flare using Guid(71fd8a0bf09c48540a732d9424782ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae13b14f7f64a8f72ce4c2f384097265') in 0.029692 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001366 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d747000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.26 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.736 seconds
+Domain Reload Profiling:
+	ReloadAssembly (736ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (542ms)
+			LoadAssemblies (51ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (248ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.99 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.22 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (23.0 KB). Loaded Objects now: 4267.
+Memory consumption went from 241.0 MB to 240.9 MB.
+Total: 5.822125 ms (FindLiveObjects: 0.230083 ms CreateObjectMapping: 0.076208 ms MarkObjects: 5.465542 ms  DeleteObjects: 0.049375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001245 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16b2eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.29 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (503ms)
+			LoadAssemblies (40ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.18 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (23.0 KB). Loaded Objects now: 4270.
+Memory consumption went from 241.2 MB to 241.1 MB.
+Total: 4.656833 ms (FindLiveObjects: 0.113958 ms CreateObjectMapping: 0.048292 ms MarkObjects: 4.465958 ms  DeleteObjects: 0.028000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001133 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16b2eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.18 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.627 seconds
+Domain Reload Profiling:
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (487ms)
+			LoadAssemblies (35ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (114ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (22.9 KB). Loaded Objects now: 4273.
+Memory consumption went from 241.4 MB to 241.3 MB.
+Total: 4.343708 ms (FindLiveObjects: 0.112625 ms CreateObjectMapping: 0.046417 ms MarkObjects: 4.153417 ms  DeleteObjects: 0.030291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001258 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16b2eb000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/phoenixperry/wkspaces/bot_party_unity_game/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.23 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.629 seconds
+Domain Reload Profiling:
+	ReloadAssembly (630ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (489ms)
+			LoadAssemblies (30ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (157ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (116ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Plugins: Couldn't open /Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, error: dlopen(/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm, 0x0002): tried: '/Users/phoenixperry/wkspaces/bot_party_unity_game/Assets/AudioHelm/Plugins/AudioPluginHelm.bundle/Contents/MacOS/AudioPluginHelm' (mach-o file, but is an incompatible architecture (have (x86_64), need (arm64e)))
+Preloading 1 native plugins for Editor in 0.17 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (22.9 KB). Loaded Objects now: 4276.
+Memory consumption went from 241.6 MB to 241.5 MB.
+Total: 4.641750 ms (FindLiveObjects: 0.101792 ms CreateObjectMapping: 0.050000 ms MarkObjects: 4.468500 ms  DeleteObjects: 0.020500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

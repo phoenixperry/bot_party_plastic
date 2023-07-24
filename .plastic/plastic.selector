@@ -1,0 +1,4 @@
+repository "bot_party_unity_game@Bot_Party@cloud"
+  path "/"
+    smartbranch "/main/last known working version" 
+     
